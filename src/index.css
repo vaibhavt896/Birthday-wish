@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* index.css */
+
+/* Customize your font style */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+/* Apply the custom font to the entire body */
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Customize the typography styles */
+.text-xl-custom {
+  font-size: 1.75rem; /* Example font size */
+  font-weight: 600; /* Example font weight */
+  line-height: 1.3; /* Example line height */
+}
+
+.text-lg-custom {
+  font-size: 1.25rem; /* Example font size */
+  font-weight: 400; /* Example font weight */
+  line-height: 1.4; /* Example line height */
+}
+
+.text-lg-custom-italic {
+  font-style: italic; /* Example italic style */
+}

@@ -126,7 +126,7 @@ const InteractiveSection = () => {
         setCurrentMessageIndex(nextIndex);
       };
   return (
-    <section className="py-8 relative bg-gradient-to-b from-yellow-200 to-pink-400">
+    <section className="py-8 relative bg-gradient-to-b from-yellow-200 to-pink-400 ">
       <div className="text-center">
         <HeartAnimation />
         <h2 className="text-2xl font-semibold mb-4 md:text-3xl">Happy Birthday, Iram!❤️  ( gosshh.. naam le liya .....hahaha)</h2>

@@ -17,7 +17,7 @@ const HeartAnimation = () => {
 
   return (
     <motion.div
-      className="text-red-500 absolute top-0 left-0 ml-2 mt-2"
+      className="text-red-400 absolute top-0 left-0 ml-2 mt-2"
       variants={heartVariants}
       initial="pulsate"
       animate="pulsate"
@@ -129,14 +129,14 @@ const InteractiveSection = () => {
     <section className="py-8 relative bg-gradient-to-b from-yellow-200 to-pink-400 ">
       <div className="text-center">
         <HeartAnimation />
-        <h2 className="text-2xl font-semibold mb-4 md:text-3xl">Happy Birthday, Iram!❤️  ( gosshh.. naam le liya .....hahaha)</h2>
-        <p className="text-lg md:text-lg mb-6 text-center text-black-800 ">
+        <h2 className="text-2xl font-semibold my-5  md:text-3xl">Happy Birthday, Iram! ( gosshh.. naam le liya .....hahaha)</h2>
+        <p className="text-lg md:text-lg mb-6 text-center text-black-800 px-4">
           On your special day, I wanted to let you know how much you mean to me (Spacially for me).
         </p>
-        <p className="text-lg mb-6">
+        <p className="text-lg mb-6 px-4">
           Your presence brings joy to my life, and every moment spent with you is a treasure.
         </p>
-        <p className="text-lg mb-6">
+        <p className="text-lg mb-6 px-4">
           I hope this small gesture brightens your day and reminds you of the amazing person you are.
         </p>
         <div className="text-center mx-auto max-w-md ">
